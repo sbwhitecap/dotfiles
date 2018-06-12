@@ -7,3 +7,9 @@ repo = 'wsdjeg/dein-ui.vim'
 [[plugins]]
 repo = 'bhurlow/vim-parinfer'
 
+[[plugins]]
+repo = 'vim-jp/vimdoc-ja'
+
+[[plugins]]
+repo = 'cespare/vim-toml'
+
