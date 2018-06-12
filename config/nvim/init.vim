@@ -16,6 +16,7 @@ if dein#load_state(s:dein_dir)
   call dein#save_state()
 endif
 
+filetype plugin on
 filetype plugin indent on
 syntax enable
 
