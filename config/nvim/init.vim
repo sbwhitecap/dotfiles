@@ -34,6 +34,9 @@ nnoremap <silent> p p`]
 
 " https://github.com/jpalardy/vim-slime
 let g:slime_target = 'neovim'
+let g:slime_no_mappings = 1
+xmap <Leader>s <Plug>SlimeRegionSend
+nmap <Leader>s <Plug>SlimeParagraphSend
 
 " http://blog-sk.com/vim/neovim-settings/
 nnoremap <Leader>t :split +:terminal<CR>
