@@ -28,10 +28,13 @@ if dein#check_install()
   call dein#install()
 endif
 
-" https://postd.cc/how-to-boost-your-vim-productivity/
-let mapleader = '\<Space>'
-
 vnoremap <silent> y y`]
 vnoremap <silent> p p`]
 nnoremap <silent> p p`]
 
+" https://github.com/jpalardy/vim-slime
+let g:slime_target = 'neovim'
+
+" http://blog-sk.com/vim/neovim-settings/
+nnoremap <Leader>t :split +:terminal<CR>
+tnoremap <ESC> <C-\><C-n>

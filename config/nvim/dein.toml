@@ -13,3 +13,5 @@ repo = 'vim-jp/vimdoc-ja'
 [[plugins]]
 repo = 'cespare/vim-toml'
 
+[[plugins]]
+repo = 'jpalardy/vim-slime'
