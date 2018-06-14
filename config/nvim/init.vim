@@ -2,6 +2,10 @@ if &compatible
   set nocompatible
 endif
 
+" https://postd.cc/how-to-boost-your-vim-productivity/
+let mapleader = "\<Space>"
+nnoremap <Leader>w :w<CR>
+
 let s:dein_dir = $HOME . '/.cache/dein'
 let &runtimepath .= ',' . s:dein_dir . '/repos/github.com/Shougo/dein.vim'
 
