@@ -1,1 +1,2 @@
 alias sbclql="sbcl --quit --load"
+alias rrr="rlwrap ros run"
