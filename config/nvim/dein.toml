@@ -28,3 +28,6 @@ repo = 'hattya/license.vim'
 
 [[plugins]]
 repo = 'dag/vim-fish'
+
+[[plugins]]
+repo = 'dracula/vim'
