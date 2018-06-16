@@ -31,3 +31,8 @@ repo = 'dag/vim-fish'
 
 [[plugins]]
 repo = 'dracula/vim'
+
+[[plugins]]
+repo = 'junegunn/fzf'
+#path = '$HOME/.fzf'
+#build = './install --all'
