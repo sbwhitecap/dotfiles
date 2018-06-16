@@ -41,3 +41,13 @@ nmap <Leader>s <Plug>SlimeParagraphSend
 " http://blog-sk.com/vim/neovim-settings/
 nnoremap <Leader>t :split +:terminal<CR>
 tnoremap <ESC> <C-\><C-n>
+
+let &shell = 'fish'
+
+set autowrite
+set number
+set tabstop=8
+set softtabstop=2
+set shiftwidth=2
+set expandtab
+set smarttab
