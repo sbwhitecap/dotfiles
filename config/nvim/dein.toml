@@ -5,7 +5,8 @@ repo = 'Shougo/dein.vim'
 repo = 'wsdjeg/dein-ui.vim'
 
 [[plugins]]
-repo = 'bhurlow/vim-parinfer'
+repo = 'eraserhd/parinfer-rust'
+build = 'cargo build --release'
 
 [[plugins]]
 repo = 'vim-jp/vimdoc-ja'
