@@ -36,3 +36,6 @@ repo = 'dracula/vim'
 repo = 'junegunn/fzf'
 #path = '$HOME/.fzf'
 #build = './install --all'
+
+[[plugins]]
+repo = 'Glench/Vim-Jinja2-Syntax'
