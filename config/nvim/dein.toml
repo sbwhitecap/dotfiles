@@ -39,3 +39,6 @@ repo = 'junegunn/fzf'
 
 [[plugins]]
 repo = 'Glench/Vim-Jinja2-Syntax'
+
+[[plugins]]
+repo = 'JuliaEditorSupport/julia-vim'
