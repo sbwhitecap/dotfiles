@@ -52,3 +52,15 @@ repo = 'nathanaelkane/vim-indent-guides'
 
 [[plugins]]
 repo = 'janko-m/vim-test'
+
+[[plugins]]
+repo = 'airblade/vim-gitgutter'
+
+[[plugins]]
+repo = 'tpope/vim-fugitive'
+
+[[plugins]]
+repo = 'scrooloose/nerdtree'
+
+[[plugins]]
+repo = 'Xuyuanp/nerdtree-git-plugin'
