@@ -1,2 +1,3 @@
 alias sbclql="sbcl --quit --load"
 alias rrr="rlwrap ros run"
+alias ocamlq="ocaml -no-version -noprompt -nopromptcont"
