@@ -70,3 +70,10 @@ repo = 'vim-syntastic/syntastic'
 
 [[plugins]]
 repo = 'def-lkb/ocp-indent-vim'
+
+[[plugins]]
+repo = 'thinca/vim-quickrun'
+
+[[plugins]]
+repo = 'Shougo/vimproc.vim'
+build = 'make'
