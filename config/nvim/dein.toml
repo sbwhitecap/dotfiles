@@ -64,3 +64,9 @@ repo = 'scrooloose/nerdtree'
 
 [[plugins]]
 repo = 'Xuyuanp/nerdtree-git-plugin'
+
+[[plugins]]
+repo = 'vim-syntastic/syntastic'
+
+[[plugins]]
+repo = 'def-lkb/ocp-indent-vim'
