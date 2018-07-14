@@ -40,6 +40,7 @@ nmap <Leader>s <Plug>SlimeParagraphSend
 
 " http://blog-sk.com/vim/neovim-settings/
 nnoremap <Leader>t :split +:terminal<CR>
+nnoremap <Leader>y :vsplit +:terminal<CR>
 tnoremap <ESC> <C-\><C-n>
 
 nnoremap <Leader>q :QuickRun<CR>
