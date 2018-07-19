@@ -10,3 +10,8 @@ set -x OPAMKEEPBUILDDIR "1"
 if test -e "$HOME/.opam/opam-init/init.fish"
   source "$HOME/.opam/opam-init/init.fish"
 end
+
+if test -d "$HOME/.plenv"
+  set -gx PATH $PATH "$HOME/.plenv/bin"
+  status --is-interactive; and . (plenv init -|psub)
+end
