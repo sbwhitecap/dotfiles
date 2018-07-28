@@ -32,6 +32,9 @@ vnoremap <silent> y y`]
 vnoremap <silent> p p`]
 nnoremap <silent> p p`]
 
+" disable highlight after searching
+nnoremap <Esc><Esc> :nohlsearch<CR>
+
 " https://github.com/jpalardy/vim-slime
 let g:slime_target = 'neovim'
 let g:slime_no_mappings = 1
