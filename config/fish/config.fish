@@ -12,6 +12,6 @@ if test -e "$HOME/.opam/opam-init/init.fish"
 end
 
 if test -d "$HOME/.plenv"
-  set -gx PATH $PATH "$HOME/.plenv/bin"
+  set -gx fish_user_paths "$HOME/.plenv/bin" $fish_user_paths
   status --is-interactive; and . (plenv init -|psub)
 end
