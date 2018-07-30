@@ -15,3 +15,8 @@ if test -d "$HOME/.plenv"
   set -gx fish_user_paths "$HOME/.plenv/bin" $fish_user_paths
   status --is-interactive; and . (plenv init -|psub)
 end
+
+if test -d "$HOME/.rbenv"
+  set -gx fish_user_paths "$HOME/.rbenv/bin" $fish_user_paths
+  status --is-interactive; and . (rbenv init -|psub)
+end
