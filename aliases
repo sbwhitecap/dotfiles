@@ -1,3 +1,5 @@
-alias sbclql="sbcl --quit --load"
+alias sbcl="sbcl --noinform"
+alias sbql="sbcl --noinform --quit --load"
+alias rlcl="rlwrap sbcl --noinform"
 alias rrr="rlwrap ros run"
 alias ocamlq="ocaml -no-version -noprompt -nopromptcont"
