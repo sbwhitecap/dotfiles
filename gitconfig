@@ -7,5 +7,5 @@
 [color]
 	ui = auto
 [core]
-	editor = micro
+	editor = kak
 	autocrlf = input
