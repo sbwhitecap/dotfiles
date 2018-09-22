@@ -25,3 +25,7 @@ if test -d "$HOME/.local"
   set -xg LD_LIBRARY_PATH $HOME/.local/lib $LD_LIBRARY_PATH
   set -xg fish_user_paths $HOME/.local/bin $fish_user_paths
 end
+
+if test -d "$HOME/.cargo"
+  set -gx fish_user_paths "$HOME/.cargo/bin:$PATH" $fish_user_paths
+end
