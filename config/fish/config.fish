@@ -20,3 +20,8 @@ if test -d "$HOME/.rbenv"
   set -gx fish_user_paths "$HOME/.rbenv/bin" $fish_user_paths
   status --is-interactive; and . (rbenv init -|psub)
 end
+
+if test -d "$HOME/.local"
+  set -xg LD_LIBRARY_PATH $HOME/.local/lib $LD_LIBRARY_PATH
+  set -xg fish_user_paths $HOME/.local/bin $fish_user_paths
+end
