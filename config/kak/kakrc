@@ -1,3 +1,4 @@
-hook global BufSetOption filetype=lisp %{
-  set-option buffer indentwidth 2
+hook global BufOpenFile .* %{
+    evaluate-commands modeline-parse
 }
+hook global BufCreate .* %{ evaluate-commands editorconfig-load }
