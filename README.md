@@ -1,2 +1,2 @@
 # dotfiles
-install thoughtbot/rcm and clone this into ~/dotfiles
+install thoughtbot/rcm and clone this into ~/.dotfiles
