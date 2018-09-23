@@ -27,5 +27,5 @@ if test -d "$HOME/.local"
 end
 
 if test -d "$HOME/.cargo"
-  set -gx fish_user_paths "$HOME/.cargo/bin:$PATH" $fish_user_paths
+  set -gx fish_user_paths $HOME/.cargo/bin $fish_user_paths
 end
