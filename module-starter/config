@@ -1,0 +1,11 @@
+builder: Module::Build
+
+license: apache
+
+author:  Kazuki Shigemichi
+email:   shigemichik@gmail.com
+
+fatalize: 1
+minperl: 5.26.0
+
+ignores_type: git
