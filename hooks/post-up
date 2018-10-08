@@ -13,4 +13,4 @@ setup_dein () {
   fi
 }
 
-setup_dein
+#setup_dein
