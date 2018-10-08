@@ -1,13 +1,16 @@
-#!/bin/sh
+#!/bin/bash
 
 dein_dir="$HOME/.cache/dein"
 dein_installer="https://raw.githubusercontent.com/Shougo/dein.vim/master/bin/installer.sh"
 
-if [ -d "$dein_dir" ]; then
-  :
-else
-  curl $dein_installer | sh -s $dein_dir
-  cd "$dein_dir/repos/github.com/Shougo/dein.vim"
-  git checkout 1.5
-fi
+setup_dein () {
+  if [ -d "$dein_dir" ]; then
+    :
+  else
+    curl $dein_installer | sh -s $dein_dir
+    cd "$dein_dir/repos/github.com/Shougo/dein.vim"
+    git checkout 1.5
+  fi
+}
 
+setup_dein
