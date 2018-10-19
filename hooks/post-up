@@ -9,7 +9,7 @@ setup_dein () {
   else
     curl $dein_installer | sh -s $dein_dir
     cd "$dein_dir/repos/github.com/Shougo/dein.vim"
-    git checkout 1.5
+    #git checkout 1.5
   fi
 }
 
