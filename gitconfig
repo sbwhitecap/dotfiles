@@ -9,3 +9,6 @@
 [core]
 	editor = kak
 	autocrlf = input
+
+[commit]
+	verbose = true
