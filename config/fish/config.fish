@@ -29,3 +29,7 @@ end
 if test -d "$HOME/.cargo"
   set -gx fish_user_paths $HOME/.cargo/bin $fish_user_paths
 end
+
+if test -d "$HOME/.nimble"
+  set -gx fish_user_paths $HOME/.nimble/bin $fish_user_paths
+end
