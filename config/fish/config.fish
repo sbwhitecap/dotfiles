@@ -33,3 +33,7 @@ end
 if test -d "$HOME/.nimble"
   set -gx fish_user_paths $HOME/.nimble/bin $fish_user_paths
 end
+
+if test -d "$HOME/.fasm"
+  set -gx fish_user_paths $HOME/.fasm $fish_user_paths
+end
